@@ -1,3 +1,115 @@
-.index-title {
-  font-size: 100px;
+.header{
+    background-color: rgba(0, 0, 0, 1);
+}
+.headerMenu a{
+    color: rgba(209, 209, 209, 1);
+}
+
+.profile{
+    background-color: rgba(0, 0, 0, 1);
+}
+.profileInfo{
+    width: 636px;
+}
+.profileInfo h2{
+    color: rgba(255, 255, 255, 1);
+}
+.profileInfo h1{
+    color: rgba(0, 255, 163, 1);
+}
+.profileInfo a{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px 24px;
+    border-radius: 32px;
+    margin-left: auto;
+}
+.profileInfo img{
+    margin-left: 4px;
+}
+
+.introduction{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true) center center no-repeat;
+    background-size: cover;
+}
+.introduction .item1{
+    width: 526px;
+}
+.introduction h2,p{
+    color: rgba(255, 255, 255, 1);
+}
+.introduction .item2{
+    width: 746px;
+}
+
+.about .item1{
+    width: 636px;
+    flex-wrap: wrap;
+}
+.about .list{
+    width: 306px;
+    border:  1px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.about .item2{
+    width: 526px;
+}
+.about .item2 p{
+    color: #000000;
+}
+
+.contact{
+    background: linear-gradient(rgba(5, 0, 20, 1),rgba(1, 2, 30, 0.89));
+}
+.contact h2{
+    color: rgba(255, 255, 255, 1);
+}
+.contact .item2{
+    width: 526px;
+}
+.contact .item2 a{
+    width: 162px;
+    height: 162px;
+    border-radius: 40px;
+    text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.contact .item2 a:hover{
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
+}
+.contact .discode{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true) center center no-repeat;
+    background-size: cover;
+}
+.contact .instagram{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true) center center no-repeat;
+}
+.contact .message{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true) center center no-repeat;
+}
+
+.project .item1{
+    align-self: flex-end;
+}
+.project .item2{
+    width: 856px;
+}
+.project .item2 a{
+    background-color: #000000;
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 24px;
+    border-radius: 32px;
+    margin-right: auto;
+}
+.project .item2Object1 .d-flex{
+    width: 636px;
+}
+.item2Object1 .d-flex p{
+    color: rgba(21, 22, 29, 1);
+}
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+}
+.footer p{
+    color: rgba(255, 255, 255, 1);
 }
